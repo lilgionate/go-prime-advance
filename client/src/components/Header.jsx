@@ -1,20 +1,27 @@
 import React from 'react';
+import './Header.css';
+import Logo from '../assets/biz-funder-logo.jpg';
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-center p-4 bg-gray-900 text-white">
-      <div className="text-xl font-bold">KAPITUS</div>
-      <nav className="flex space-x-4">
-        <a href="#solutions" className="hover:text-gray-400">Solutions</a>
-        <a href="#products" className="hover:text-gray-400">Products</a>
-        <a href="#partnerships" className="hover:text-gray-400">Partnerships</a>
-        <a href="#resource" className="hover:text-gray-400">Resource Center</a>
-        <a href="#about" className="hover:text-gray-400">About</a>
-        <a href="#contact" className="hover:text-gray-400">Contact</a>
-      </nav>
-      <div className="flex space-x-4">
-        <a href="#login" className="hover:text-gray-400">Login</a>
-        <a href="#apply" className="bg-purple-500 hover:bg-purple-700 text-white py-2 px-4 rounded">Apply Now</a>
+    <header className="flex justify-between items-center p-4 bg-[#ffffff] text-[#00a8e8] font-semibold">
+      <img src={Logo} className="h-10 w-auto" alt="Logo" />
+
+      <div className="flex space-x-4 items-center">
+        <nav className="flex space-x-4">
+          <a href="#solutions" className="hover:text-[#3066be]">Solutions</a>
+          <a href="#products" className="hover:text-[#3066be]">Products</a>
+          <a href="#partnerships" className="hover:text-[#3066be]">Partnerships</a>
+          <a href="#resource" className="hover:text-[#3066be]">Resource Center</a>
+          <a href="#about" className="hover:text-[#3066be]">About</a>
+          <a href="#contact" className="hover:text-[#3066be]">Contact</a>
+        </nav>
+        <a 
+          href="#apply" 
+         className="bg-[#3066be] text-[#F1F7F9] py-3 px-4 rounded"
+        >
+          Apply Now
+        </a>
       </div>
     </header>
   );

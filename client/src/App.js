@@ -1,4 +1,5 @@
 import React from 'react';
+import TopBar from './components/TopBar';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import FeaturedIn from './components/FeaturedIn';
@@ -12,11 +13,14 @@ import Testimonials from './components/Testimonials';
 import Assistance from './components/Assistance';
 import Footer from './components/Footer';
 import './App.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 function App() {
   return (
     <div className="App">
-       <Header />
+      <TopBar />
+      <Header />
       <HeroSection />
       <FeaturedIn />
       <Services />
