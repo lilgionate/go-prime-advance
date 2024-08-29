@@ -2,7 +2,7 @@ import React from 'react';
 
 const TopBar = () => {
   return (
-    <div className="bg-[#1b1b1b] text-white py-0.5 font-semibold">
+    <div className="bg-[#E1E8ED] text-[#14171A] py-0.5 font-semibold">
       <div className="w-full flex justify-between items-center px-14">
         <div className="flex space-x-4 text-lg">
           <a href="#linkedin" aria-label="LinkedIn">
@@ -23,7 +23,7 @@ const TopBar = () => {
         </div>
         <div className="flex items-center space-x-4 text-xs">
           <span>Call now: (800) 780-7133</span>
-          <a href="#login" className="border border-white py-1 px-3 rounded-md">Login</a>
+          <a href="#login" className="border border-[#14171A] py-1 px-3 rounded-md">Login</a>
         </div>
       </div>
     </div>

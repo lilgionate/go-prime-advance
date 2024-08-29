@@ -25,7 +25,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="bg-[#1b1b1b] py-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
+    <section className="bg-[#14171A] py-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
       {services.map((service, index) => (
         <div key={index} className="p-6 border rounded-lg">
           <h3 className="text-xl font-bold mb-2">{service.title}</h3>
