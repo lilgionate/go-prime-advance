@@ -2,7 +2,6 @@ import React from 'react';
 import TopBar from './components/TopBar';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
-import FeaturedIn from './components/FeaturedIn';
 import Services from './components/Services';
 import Statistics from './components/Statistics';
 import KapitusPlus from './components/KapitusPlus.jsx';
@@ -22,7 +21,6 @@ function App() {
       <TopBar />
       <Header />
       <HeroSection />
-      <FeaturedIn />
       <Services />
       <Statistics />
       <KapitusPlus />
