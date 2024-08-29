@@ -2,22 +2,38 @@ import React from 'react';
 
 const Statistics = () => {
   return (
-    <section className="flex justify-evenly py-8 bg-gray-100">
+    <section className="flex justify-evenly py-8 bg-[#F5F8FA] text-[#1b1b1b]">
       <div className="text-center">
-        <div className="text-3xl font-bold">$6 Billion</div>
-        <div>In Capital Provided</div>
+        <div className="text-4xl font-bold" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.4)' }}>
+          $6 Billion
+        </div>
+        <div className="text-xl" style={{ textShadow: '1px 1px 2px rgba(0, 0, 0, 0.4)' }}>
+          In Capital Provided
+        </div>
       </div>
       <div className="text-center">
-        <div className="text-3xl font-bold">50,000</div>
-        <div>Businesses Funded</div>
+        <div className="text-4xl font-bold" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.4)' }}>
+          50,000
+        </div>
+        <div className="text-xl" style={{ textShadow: '1px 1px 2px rgba(0, 0, 0, 0.4)' }}>
+          Businesses Funded
+        </div>
       </div>
       <div className="text-center">
-        <div className="text-3xl font-bold">Inc. 5000</div>
-        <div>Recognized</div>
+        <div className="text-4xl font-bold" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.4)' }}>
+          Inc. 5000
+        </div>
+        <div className="text-xl" style={{ textShadow: '1px 1px 2px rgba(0, 0, 0, 0.4)' }}>
+          Recognized
+        </div>
       </div>
       <div className="text-center">
-        <div className="text-3xl font-bold">4.6</div>
-        <div>Google Reviews</div>
+        <div className="text-4xl font-bold" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.4)' }}>
+          4.6
+        </div>
+        <div className="text-xl" style={{ textShadow: '1px 1px 2px rgba(0, 0, 0, 0.4)' }}>
+          Google Reviews
+        </div>
       </div>
     </section>
   );
