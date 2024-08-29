@@ -1,0 +1,56 @@
+/* Custom styles for testimonial containers */
+.testimonial-container {
+    height: 250px; /* Set a fixed height for all testimonial containers */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.4s ease;
+    align-self: flex-start; /* Aligns the name and date to the bottom left */
+    width: 100%; /* Ensure it takes the full width of the container */
+  }
+  
+  .testimonial-container:hover {
+    transform: translateY(-10px); /* Move the container up by 10px on hover */
+  }
+ 
+
+  /* Custom styles for Swiper navigation buttons */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: rgb(200, 200, 200);
+    top: 50%;
+    transform: translateY(-50%);
+    width: 32px !important;  /* Smaller width */
+    height: 20px !important; /* Smaller height */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and scale */
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  color: #666666; /* Darker gray color on hover */
+}
+
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 20px !important;
+    font-weight: 800;
+  }
+  
+  /* Move buttons closer to the edges of the screen */
+  .swiper-button-next {
+    right: -10px; /* Adjust to move button closer to the edge */
+  }
+  
+  .swiper-button-prev {
+    left: -10px; /* Adjust to move button closer to the edge */
+  }
+  
+  /* Adjust the spacing around the bullets */
+  .swiper-pagination {
+    bottom: 20px; /* Adjust as needed to avoid overlap with content */
+  }
+  
+  /* Add space between the review content and the bullets */
+  .swiper-slide > div {
+    padding-bottom: 40px; /* Add extra padding at the bottom of each review */
+  }

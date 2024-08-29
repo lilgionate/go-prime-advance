@@ -41,13 +41,13 @@ const ApplicationProcess = () => {
       </div>
 
       {/* Steps Section */}
-      <div className="max-w-5xl mx-auto grid grid-cols-1 gap-10">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 gap-10">
         {steps.map((step, index) => (
-          <div key={index} className="flex flex-col lg:flex-row items-center p-10 border rounded-lg shadow-md bg-[#ffffff] space-y-5 lg:space-y-0 lg:space-x-10">
-            <div className="text-center lg:text-left flex flex-col justify-center items-center lg:items-start h-full">
-              <h3 className="text-lg font-bold mb-2">{step.step}</h3>
-              <h2 className="text-xl font-bold mb-4">{step.title}</h2>
-              <p className="text-gray-600 mb-4 leading-relaxed">{step.description}</p>
+          <div key={index} className="flex flex-col lg:flex-row items-center px-16 py-10 border rounded-lg shadow-md bg-[#ffffff] space-y-5 lg:space-y-0 lg:space-x-10">
+            <div className="w-3/6 text-center lg:text-left flex flex-col justify-center lg:items-start h-full">
+              <h3 className="text-lg font-bold mb-6 text-[#1DA1F2]">{step.step}</h3>
+              <h2 className="text-4xl font-bold mb-8">{step.title}</h2>
+              <p className="text-gray-600 mb-8 leading-relaxed">{step.description}</p>
               <a 
                 href={step.link} 
                 className="bg-[#1DA1F2] text-white py-2 px-4 rounded hover:bg-[#0d8ecf] transition-colors duration-200"
@@ -55,11 +55,13 @@ const ApplicationProcess = () => {
                 {step.buttonText}
               </a>
             </div>
-            <img 
-              src={step.image} 
-              alt={step.title} 
-              className="w-full w-3/12 h-auto object-cover rounded-lg shadow-md"
-            />
+            <div className="w-1/4 flex justify-center items-center">
+              <img 
+                src={step.image} 
+                alt={step.title} 
+                className="object-cover rounded-lg shadow-md ml-60"
+              />
+            </div>
           </div>
         ))}
       </div>
@@ -68,4 +70,3 @@ const ApplicationProcess = () => {
 };
 
 export default ApplicationProcess;
-

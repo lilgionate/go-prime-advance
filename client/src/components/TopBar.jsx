@@ -3,7 +3,7 @@ import React from 'react';
 const TopBar = () => {
   return (
     <div className="bg-[#F1F7F9] text-[#14171A] py-0.5 font-semibold">
-      <div className="w-full flex justify-between items-center px-14">
+      <div className="w-full flex justify-between items-center px-10">
         <div className="flex space-x-4 text-lg">
           <a href="#linkedin" aria-label="LinkedIn">
             <i className="fab fa-linkedin"></i>
