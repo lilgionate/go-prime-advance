@@ -1,6 +1,5 @@
 .clip-bottom {
   background-color: #1DA1F2;
-  padding-bottom: 80px;
-  border-radius: 0% 0% 150% 150%/0% 0% 40% 40%;
--webkit-border-radius: 0% 0% 150% 150%/0% 0% 40% 40%;
+  padding-bottom: 100px;
+  
 }
