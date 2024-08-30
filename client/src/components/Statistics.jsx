@@ -1,8 +1,9 @@
 import React from 'react';
+import './Statistics.css'
 
 const Statistics = () => {
   return (
-    <section className="flex justify-evenly py-8 bg-[#F5F8FA] text-[#1b1b1b]">
+    <section className="flex justify-evenly py-8 bg-[#F5F8FA] text-[#1b1b1b] statistics-container">
       <div className="text-center">
         <div className="text-4xl font-bold" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.4)' }}>
           $6 Billion

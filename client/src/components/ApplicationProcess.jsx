@@ -1,8 +1,8 @@
 import React from 'react';
-
 import Img1 from '../assets/build_1.webp';  // Replace with your actual image paths
 import Img2 from '../assets/build_2.webp';
 import Img3 from '../assets/build_3.webp';
+import './ApplicationProcess.css'; // Import the custom CSS
 
 const steps = [
   {
@@ -33,9 +33,9 @@ const steps = [
 
 const ApplicationProcess = () => {
   return (
-    <section className="py-10 px-20 bg-[#F5F8FA]">
+    <section className="application-process-section py-10 px-20 bg-[#F5F8FA]">
       {/* Title Section */}
-      <div className="text-center mt-14 mb-10">
+      <div className="application-process-title text-center mt-14 mb-10">
         <h2 className="text-4xl font-bold text-[#1b1b1b] mb-8">Build Your Customized Financing Experience</h2>
         <p className="text-lg text-[#1b1b1b] leading-relaxed">We believe that every business is unique, and your financing should be too. From small business loans to equipment financing and everything in between, GoPrimePLUS has you covered. Our team of seasoned financing specialists works closely with you to craft a personalized financing package that aligns with your goals. GoPrimeAdvance is your solution for a customized financing experience that simplifies the process while providing a diverse range of options to make your financing experience uniquely yours.</p>
       </div>
@@ -43,7 +43,7 @@ const ApplicationProcess = () => {
       {/* Steps Section */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 gap-10">
         {steps.map((step, index) => (
-          <div key={index} className="flex flex-col lg:flex-row items-center px-16 py-10 border rounded-lg shadow-md bg-[#ffffff] space-y-5 lg:space-y-0 lg:space-x-10">
+          <div key={index} className="application-process-step flex flex-col lg:flex-row items-center px-16 py-10 border rounded-lg shadow-md bg-[#ffffff] space-y-5 lg:space-y-0 lg:space-x-10">
             <div className="w-3/6 text-center lg:text-left flex flex-col justify-center lg:items-start h-full">
               <h3 className="text-lg font-bold mb-6 text-[#1DA1F2]">{step.step}</h3>
               <h2 className="text-4xl font-bold mb-8">{step.title}</h2>

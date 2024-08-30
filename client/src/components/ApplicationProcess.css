@@ -1,0 +1,67 @@
+/* Responsive adjustments for small screens */
+@media (max-width: 640px) {
+    /* Container adjustments */
+    .application-process-section {
+      padding: 20px 10px;
+    }
+  
+    .application-process-title {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      padding: 0 15px;
+    }
+  
+    .application-process-title h2 {
+      font-size: 1.5rem;
+    }
+  
+    .application-process-title p {
+      font-size: 0.875rem;
+    }
+  
+    /* Adjustments for each step container */
+    .application-process-step {
+      flex-direction: column;
+      padding: 20px;
+      text-align: center;
+      align-items: center; /* Ensure items are centered in the container */
+    }
+  
+    /* Place the image at the top and make it bigger */
+    .application-process-step > div:first-child {
+      order: 2; /* Ensure the text container is ordered second */
+    }
+  
+    .application-process-step img {
+      margin-bottom: 20px;
+      max-width: 300px; /* Increase the max width for larger images */
+      margin-left: 0;
+      order: -1; /* Move the image to the top of the container */
+    }
+  
+    /* Step text adjustments */
+    .application-process-step h3 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+
+    }
+  
+    .application-process-step h2 {
+      font-size: 1.25rem;
+      margin-bottom: 20px;
+      
+    }
+  
+    .application-process-step p {
+      font-size: .95rem;
+      margin-bottom: 20px;
+    }
+  
+    .application-process-step a {
+      font-size: 0.875rem;
+      padding: 10px 20px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  

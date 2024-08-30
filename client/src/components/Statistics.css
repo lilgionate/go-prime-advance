@@ -1,0 +1,25 @@
+/* Responsive adjustments for small screens */
+@media (max-width: 640px) {
+    .statistics-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .statistics-container > div {
+      margin-bottom: 20px;
+    }
+  
+    .statistics-container > div:last-child {
+      margin-bottom: 0;
+    }
+  
+    .statistics-container .text-4xl {
+      font-size: 2rem; /* Adjust the size of the large text */
+    }
+  
+    .statistics-container .text-xl {
+      font-size: 1rem; /* Adjust the size of the smaller text */
+    }
+  }
+  

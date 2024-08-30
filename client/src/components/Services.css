@@ -1,0 +1,55 @@
+/* Ensure proper padding and centering for small screens */
+@media (max-width: 640px) {
+    .services-container {
+      padding: 20px 10px;
+    }
+  
+    /* Adjust title and description for smaller screens */
+    .services-title h2 {
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+    }
+  
+    .services-title p {
+      font-size: 0.875rem;
+      padding: 0 10px;
+    }
+  
+    /* Ensure single-column layout on small screens */
+    .services-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 170px 16px;
+      padding: 0 15px;
+    }
+  
+    /* Adjust service card for small screens */
+    .service-card {
+      margin-top: 48px;
+      padding: 15px;
+    }
+  
+    /* Adjust image size and position for small screens */
+    .service-card img {
+      top: -170px;
+      width: 150px;
+      height: 150px;
+    }
+  
+    /* Adjust text size within service card */
+    .service-card h3 {
+      font-size: 1.125rem;
+    }
+  
+    .service-card p {
+      font-size: 0.75rem;
+      max-width: 250px;
+    }
+  
+    /* Adjust button at the bottom of the services section */
+    .services-container .text-center a {
+      padding: 12px 20px;
+      font-size: 0.875rem;
+    }
+  }
+  

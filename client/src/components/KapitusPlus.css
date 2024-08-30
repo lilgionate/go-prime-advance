@@ -1,0 +1,48 @@
+/* Responsive adjustments for small screens */
+@media (max-width: 640px) {
+    .kapitus-plus-section {
+      padding: 10px 5px;
+    }
+  
+    .kapitus-plus-container {
+      grid-template-columns: 1fr; /* Stack the columns vertically */
+    }
+  
+    .kapitus-plus-image-container {
+      padding: 10px; /* Adjust padding for small screens */
+    }
+  
+    .kapitus-plus-image {
+      max-width: 100%; /* Ensure the image doesn't overflow */
+      height: auto; /* Maintain aspect ratio */
+    }
+  
+    .kapitus-plus-text-container {
+      padding: 15px; /* Adjust padding for the text container */
+      text-align: center; /* Center the text for small screens */
+    }
+  
+    .kapitus-plus-subtitle {
+      font-size: 1rem; /* Adjust subtitle font size */
+      margin-bottom: 10px;
+    }
+  
+    .kapitus-plus-title {
+      font-size: 1.5rem; /* Adjust title font size */
+      margin-bottom: 20px;
+    }
+  
+    .kapitus-plus-description {
+      font-size: 0.875rem; /* Adjust description font size */
+      margin-bottom: 20px;
+    }
+  
+    .kapitus-plus-button {
+      display: block;
+      width: 100%;
+      text-align: center;
+      font-size: 1rem; /* Adjust button font size */
+      padding: 10px; /* Adjust padding for the button */
+    }
+  }
+  
