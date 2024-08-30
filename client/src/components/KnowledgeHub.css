@@ -1,0 +1,49 @@
+/* Responsive adjustments for small screens */
+@media (max-width: 640px) {
+    .knowledge-hub-section {
+      padding-top: 20px;
+    }
+  
+    .knowledge-hub-title {
+      font-size: 1.75rem;
+      margin-bottom: 10px;
+    }
+  
+    .knowledge-hub-description {
+      font-size: 0.875rem;
+      margin-bottom: 20px;
+    }
+  
+    .knowledge-hub-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      padding: 0 15px;
+    }
+  
+    .knowledge-hub-card {
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+    .knowledge-hub-card img {
+      height: auto;
+      max-width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .knowledge-hub-card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+  
+    .knowledge-hub-card p {
+      font-size: 0.875rem;
+      margin-bottom: 10px;
+    }
+  
+    .knowledge-hub-card a {
+      font-size: 0.875rem;
+    }
+  }
+  

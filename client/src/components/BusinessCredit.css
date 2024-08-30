@@ -6,3 +6,45 @@
     border-radius: 694px / 208px;
   }
   
+  /* Responsive adjustments for small screens */
+@media (max-width: 640px) {
+  /* Adjust the section padding and flex direction for small screens */
+  .custom-oval {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center; /* Center the text for better readability */
+  }
+
+  /* Ensure the image is centered and resized */
+  .custom-oval img {
+    margin-bottom: 20px;
+    width: 80%;
+    height: auto; /* Maintain aspect ratio */
+    max-width: 300px;
+    margin-left: 0;
+  }
+
+  /* Text container adjustments */
+  .custom-oval > div:nth-child(2) {
+    width: 100%;
+    text-align: center;
+  }
+
+  .custom-oval h2 {
+    font-size: 1.5rem; /* Reduce heading size */
+    margin-bottom: 20px;
+  }
+
+  .custom-oval p {
+    font-size: 0.875rem; /* Adjust paragraph size */
+    margin-bottom: 20px;
+  }
+
+  .custom-oval a {
+    font-size: 0.875rem; /* Adjust button text size */
+    padding: 10px 20px; /* Adjust button padding */
+    display: inline-block;
+    width: 100%; /* Make the button full-width */
+    text-align: center; /* Center the button text */
+  }
+}

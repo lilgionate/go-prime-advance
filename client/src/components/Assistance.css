@@ -1,0 +1,31 @@
+/* Responsive adjustments for small screens */
+@media (max-width: 640px) {
+    .assistance-section {
+      padding-top: 15px;
+      padding-bottom: 20px;
+      clip-path: none; /* Remove the ellipse clip-path for better visibility */
+    }
+  
+    .assistance-section h2 {
+      font-size: 1.5rem; /* Adjust font size for headings */
+      margin-bottom: 15px; /* Adjust bottom margin */
+    }
+  
+    .assistance-section .container {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding: 0 15px;
+    }
+  
+    .assistance-section .flex {
+      flex-direction: column;
+      gap: 10px; /* Adjust spacing between buttons */
+    }
+  
+    .assistance-section a {
+      width: 100%; /* Make buttons full-width */
+      font-size: 1rem; /* Adjust button font size */
+      padding: 12px 20px; /* Adjust button padding */
+    }
+  }
+  

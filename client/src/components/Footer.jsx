@@ -2,16 +2,17 @@ import React from 'react';
 import { FaFacebookF, FaLinkedinIn, FaInstagram, FaYoutube, FaTwitter } from 'react-icons/fa';
 
 import Logo from '../assets/biz-funder-logo.jpg';
+import './Footer.css'; // Import the custom CSS
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1DA1F2] text-[#F5F8FA] py-10 px-20">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-x-20 gap-y-8">
+    <footer className="bg-[#1DA1F2] text-[#F5F8FA] py-10 px-20 footer-container">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-x-20 gap-y-8 footer-grid">
         
         {/* Logo Section */}
-        <div className="md:col-span-1">
+        <div className="md:col-span-1 footer-logo">
           <img src={Logo} alt="Kapitus Logo" className="mb-4" />
-          <div className="bg-transparent border border-[#F5F8FA] p-4 rounded-lg mt-8">
+          <div className="bg-transparent border border-[#F5F8FA] p-4 rounded-lg mt-8 newsletter-form">
             <h3 className="text-lg font-bold mb-2">Sign Up For Our Newsletter</h3>
             <input 
               type="email" 
@@ -23,7 +24,7 @@ const Footer = () => {
         </div>
 
         {/* Discover Section */}
-        <div className="md:col-span-3 ml-48">
+        <div className="md:col-span-3 ml-48 footer-links">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
             <div>
               <h3 className="text-lg font-bold mb-4">Discover</h3>
@@ -65,8 +66,8 @@ const Footer = () => {
       </div>
 
       {/* Social Icons and Copyright */}
-      <div className="mt-12 flex justify-between items-center text-sm">
-        <div>
+      <div className="mt-12 flex justify-between items-center text-sm social-icons">
+        <div className="footer-copyright">
           <p>© 2024 Strategic Funding Source, Inc. All rights reserved.</p>
           <p>GoPrime and the GoPrime logo are registered trademarks of Strategic Funding Source, Inc.</p>
           <p>Loans made or brokered in New York are made or brokered pursuant to New York Finance Lenders License No. 603-G609.</p>

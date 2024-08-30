@@ -38,11 +38,11 @@
   
   /* Move buttons closer to the edges of the screen */
   .swiper-button-next {
-    right: -10px; /* Adjust to move button closer to the edge */
+    right: -5px; /* Adjust to move button closer to the edge */
   }
   
   .swiper-button-prev {
-    left: -10px; /* Adjust to move button closer to the edge */
+    left: -5px; /* Adjust to move button closer to the edge */
   }
   
   /* Adjust the spacing around the bullets */
@@ -54,3 +54,54 @@
   .swiper-slide > div {
     padding-bottom: 40px; /* Add extra padding at the bottom of each review */
   }
+
+  /* Responsive adjustments for small screens */
+@media (max-width: 640px) {
+  .testimonial-text-section {
+    padding: 0 40px; /* Add padding around the text section */
+  }
+
+  .testimonial-text-section h2 {
+    font-size: 1.5rem; /* Adjust heading size for small screens */
+    margin-bottom: 10px; /* Reduce bottom margin */
+  }
+
+  .testimonial-text-section p {
+    font-size: 0.85rem; /* Adjust paragraph size for small screens */
+    margin-bottom: 20px; /* Adjust bottom margin */
+  }
+
+  .testimonial-container {
+    padding: 15px 20px;
+    font-size: 0.875rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .testimonial-container svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .testimonial-container p {
+    margin-bottom: 10px;
+  }
+
+  .swiper-slide {
+    width: 100% !important; /* Ensure each slide takes up the full width */
+  }
+
+  .swiper-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* Adjustments for text sizes */
+  .testimonial-container .font-semibold {
+    font-size: 1rem;
+  }
+
+  .testimonial-container .text-sm {
+    font-size: 0.75rem;
+  }
+}

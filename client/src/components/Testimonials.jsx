@@ -48,7 +48,7 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <section className="bg-[#F5F8FA] py-10 pt-32">
-      <div className="text-center mb-8">
+      <div className="testimonial-text-section text-center mb-8">
         <h2 className="text-4xl font-bold">In Their Own Words</h2>
         <p className="text-lg text-gray-600">Hear what GoPrime clients have to say about their unique financing journeys.</p>
       </div>
@@ -60,6 +60,20 @@ const Testimonials = () => {
         autoplay={{ delay: 5000 }}
         pagination={{ clickable: true }}
         loop={true}
+        breakpoints={{
+          640: {
+            slidesPerView: 1, // 1 slide per view on small screens
+            spaceBetween: 20, // Smaller space between slides
+          },
+          768: {
+            slidesPerView: 2, // 2 slides per view on medium screens
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: 3, // 3 slides per view on large screens
+            spaceBetween: 40,
+          },
+        }}
         className="max-w-7xl mx-auto"
       >
         {testimonials.map((testimonial, index) => (

@@ -4,6 +4,7 @@ import Knowledge1 from '../assets/homepage-knowledge-1.webp';
 import Knowledge2 from '../assets/homepage-knowledge-2.jpg';
 import Knowledge3 from '../assets/homepage-knowledge-3.jpg';
 import Knowledge4 from '../assets/homepage-knowledge-4.jpg';
+import './KnowledgeHub.css'; // Import the custom CSS
 
 const resources = [
   {
@@ -34,14 +35,14 @@ const resources = [
 
 const KnowledgeHub = () => {
   return (
-    <section className="bg-[#F5F8FA] pt-32">
+    <section className="knowledge-hub-section bg-[#F5F8FA] pt-32">
       <div className="text-center mb-8">
-        <h2 className="text-4xl font-bold text-[#1b1b1b]">Small Business Knowledge Hub</h2>
-        <p className="text-lg text-gray-600">Educational resources to help you finance, manage, and grow your business.</p>
+        <h2 className="knowledge-hub-title text-4xl font-bold text-[#1b1b1b]">Small Business Knowledge Hub</h2>
+        <p className="knowledge-hub-description text-lg text-gray-600">Educational resources to help you finance, manage, and grow your business.</p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 px-20">
+      <div className="knowledge-hub-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 px-20">
         {resources.map((resource, index) => (
-          <div key={index} className="bg-[#E1E8ED] rounded-lg shadow-md h-fit">
+          <div key={index} className="knowledge-hub-card bg-[#E1E8ED] rounded-lg shadow-md h-fit">
             <img 
               src={resource.image} 
               alt={resource.title} 
