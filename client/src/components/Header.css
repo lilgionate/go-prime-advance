@@ -1,1 +1,32 @@
-
+.sticky-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 4px 2.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  header nav {
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+  
+  header nav.hidden {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+  }
+  
+  header nav.block {
+    max-height: 300px; /* or an appropriate value to fit your content */
+    opacity: 1;
+  }
+  
+  @media (min-width: 768px) {
+    header nav {
+      max-height: none;
+      opacity: 1;
+    }
+  }
+  

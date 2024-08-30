@@ -16,14 +16,14 @@ const Footer = () => {
             <input 
               type="email" 
               placeholder="Your email" 
-              className="w-full p-2 mb-4 rounded bg-transparent border border-white text-white placeholder-gray-400"
+              className="w-full p-2 mb-4 rounded bg-transparent border border-white text-white placeholder-white"
             />
             <button className="w-full py-2 px-4 border border-white rounded hover:bg-white hover:text-[#1b1b1b] transition-all">Join</button>
           </div>
         </div>
 
         {/* Discover Section */}
-        <div className="md:col-span-3 ml-20">
+        <div className="md:col-span-3 ml-48">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
             <div>
               <h3 className="text-lg font-bold mb-4">Discover</h3>
