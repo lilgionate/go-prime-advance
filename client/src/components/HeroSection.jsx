@@ -9,10 +9,11 @@ const HeroSection = () => {
   return (
     <div className="relative bg-[#F5F8FA]">
       <section 
-        className="clip-bottom flex flex-col-reverse lg:flex-row justify-between items-center text-[#F5F8FA] p-10"
-        style={{
-          clipPath: 'ellipse(100% 100% at 50% 0)', // Curved border at the top
-        }}>
+  className="clip-bottom flex flex-col-reverse lg:flex-row justify-between items-center text-[#F5F8FA] p-10"
+  style={{
+    clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 0% 87%)', // Slightly more straight diagonal
+  }}
+>
         <div className="lg:w-6/12 w-full mt-14 text-center lg:text-left">
           <div className="text-xl lg:text-3xl font-normal text-[#D3D3D3] mb-2 lg:mb-4">Invest in Your Future</div>
           <div className="text-2xl lg:text-6xl font-bold mb-6 lg:mb-10 leading-snug">Financing solutions to fuel your business.</div>

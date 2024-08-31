@@ -7,7 +7,7 @@ const Assistance = () => {
       <section 
         className="assistance-section relative bg-[#1DA1F2] text-[#F5F8FA] pt-20 pb-5 text-center" 
         style={{
-          clipPath: 'ellipse(75% 100% at 50% 100%)', // Adjusted to create a curved border at the top
+          clipPath: 'polygon(0% 0%, 100% 17%, 100% 100%, 0% 100%)', // Diagonal line with the left side high and right side low at the top
         }}
       >
         <div className="container mx-auto mt-10 mb-44">
