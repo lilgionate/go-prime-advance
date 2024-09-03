@@ -1,7 +1,13 @@
 {
   "name": "go-prime-advance",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.6.0",
     "@testing-library/jest-dom": "^5.17.0",
@@ -14,13 +20,12 @@
     "react-router-dom": "^6.26.1",
     "react-scripts": "5.0.1",
     "swiper": "^11.1.11",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "web-vitals": "^2.1.4",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "serve": "^14.2.3",
+    "tailwindcss": "^3.4.10"
   },
   "eslintConfig": {
     "extends": [
@@ -39,16 +44,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.41",
-    "tailwindcss": "^3.4.10"
   }
 }
