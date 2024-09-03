@@ -4,12 +4,12 @@ import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import Services from './components/Services';
 import Statistics from './components/Statistics';
-import KapitusPlus from './components/KapitusPlus.jsx';
+import KapitusPlus from './components/KapitusPlus';
 import ApplicationProcess from './components/ApplicationProcess';
 import BusinessCredit from './components/BusinessCredit';
 import KnowledgeHub from './components/KnowledgeHub'; 
 import Testimonials from './components/Testimonials';
-import MessengerCustomerChat from 'react-messenger-customer-chat';
+import FacebookMsg from './components/FacebookMsg.tsx';
 import Assistance from './components/Assistance';
 import Footer from './components/Footer';
 import './App.css';
@@ -29,10 +29,7 @@ function App() {
       <BusinessCredit />
       <KnowledgeHub />
       <Testimonials />
-      <MessengerCustomerChat
-    pageId="101423728451383"
-    appId="537847985430935"
-  />
+      <FacebookMsg />
       <Assistance />
       <Footer />
     </div>
