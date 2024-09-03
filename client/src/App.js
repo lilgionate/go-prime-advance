@@ -9,6 +9,7 @@ import ApplicationProcess from './components/ApplicationProcess';
 import BusinessCredit from './components/BusinessCredit';
 import KnowledgeHub from './components/KnowledgeHub'; 
 import Testimonials from './components/Testimonials';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 import Assistance from './components/Assistance';
 import Footer from './components/Footer';
 import './App.css';
@@ -28,6 +29,10 @@ function App() {
       <BusinessCredit />
       <KnowledgeHub />
       <Testimonials />
+      <MessengerCustomerChat
+    pageId="101423728451383"
+    appId="537847985430935"
+  />
       <Assistance />
       <Footer />
     </div>

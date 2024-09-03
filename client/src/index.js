@@ -4,17 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import MessengerCustomerChat from 'react-messenger-customer-chat';
-
-const path = window.location.pathname
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    { path.indexOf('/support') === -1 ? <App /> : <MessengerCustomerChat
-    pageId="101423728451383"
-    appId="537847985430935"
-  /> }
+    <App />
   </React.StrictMode>
 );
 
