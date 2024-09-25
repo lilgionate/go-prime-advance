@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.66ef6dc5.css",
+    "main.js": "/static/js/main.a5f05f49.js",
+    "static/js/453.a11ad8cb.chunk.js": "/static/js/453.a11ad8cb.chunk.js",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/homepage-knowledge-2.jpg": "/static/media/homepage-knowledge-2.1f3b3b4481701a7cd078.jpg",
+    "static/media/Home-kap-banner.webp": "/static/media/Home-kap-banner.69a90689ff08027b3171.webp",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/homepage-knowledge-4.jpg": "/static/media/homepage-knowledge-4.4e1ee213061834a7e29f.jpg",
+    "static/media/homepage-knowledge-3.jpg": "/static/media/homepage-knowledge-3.bfb7da8c22ee1a204f72.jpg",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/biz-funder-logo.jpg": "/static/media/biz-funder-logo.dcb9e265a86a1179d538.jpg",
+    "static/media/success_story_4.webp": "/static/media/success_story_4.ec9ee6b55704240ccef4.webp",
+    "static/media/success_story_2.webp": "/static/media/success_story_2.1a550234309023511ef4.webp",
+    "static/media/success_story_3.webp": "/static/media/success_story_3.56f55d8c1cecee33f594.webp",
+    "static/media/success_story_1.webp": "/static/media/success_story_1.9c1407c7956773b72737.webp",
+    "static/media/Experian.webp": "/static/media/Experian.34f2d75d5b5d4a7714e1.webp",
+    "static/media/homepage-knowledge-1.webp": "/static/media/homepage-knowledge-1.4f80f7c0b8dd9ee8031c.webp",
+    "static/media/KapitusPlus-1.webp": "/static/media/KapitusPlus-1.f0938dcfc9b6cf3f3470.webp",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/build_3.webp": "/static/media/build_3.00669e550d1308d000b5.webp",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "static/media/build_2.webp": "/static/media/build_2.c8a336d2b03322caf2d9.webp",
+    "static/media/build_1.webp": "/static/media/build_1.a8151e4cc3566b64cd35.webp",
+    "static/media/forbes-logo.webp": "/static/media/forbes-logo.e66c45e4e8e162aad4b9.webp",
+    "index.html": "/index.html",
+    "static/media/cnn-logo.webp": "/static/media/cnn-logo.4cac7eb02c529c008a2d.webp",
+    "static/media/fox-logo.webp": "/static/media/fox-logo.de86dbcfd8e616b5536d.webp",
+    "main.66ef6dc5.css.map": "/static/css/main.66ef6dc5.css.map",
+    "main.a5f05f49.js.map": "/static/js/main.a5f05f49.js.map",
+    "453.a11ad8cb.chunk.js.map": "/static/js/453.a11ad8cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66ef6dc5.css",
+    "static/js/main.a5f05f49.js"
+  ]
+}

@@ -9,7 +9,6 @@ import ApplicationProcess from './components/ApplicationProcess';
 import BusinessCredit from './components/BusinessCredit';
 import KnowledgeHub from './components/KnowledgeHub'; 
 import Testimonials from './components/Testimonials';
-import FacebookMsg from './components/FacebookMsg';
 import Assistance from './components/Assistance';
 import Footer from './components/Footer';
 import './App.css';
@@ -29,7 +28,6 @@ function App() {
       <BusinessCredit />
       <KnowledgeHub />
       <Testimonials />
-      <FacebookMsg />
       <Assistance />
       <Footer />
     </div>

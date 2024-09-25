@@ -3,7 +3,7 @@ import React from 'react';
 import Knowledge1 from '../assets/homepage-knowledge-1.webp';
 import Knowledge2 from '../assets/homepage-knowledge-2.jpg';
 import Knowledge3 from '../assets/homepage-knowledge-3.jpg';
-import Knowledge4 from '../assets/homepage-knowledge-4.jpg';
+import Knowledge4 from '../assets/homepage-knowledge-4.png';
 import './KnowledgeHub.css'; // Import the custom CSS
 
 const resources = [
@@ -46,7 +46,7 @@ const KnowledgeHub = () => {
             <img 
               src={resource.image} 
               alt={resource.title} 
-              className="w-full h-4/6 object-cover rounded-t-lg mb-4" 
+              className="w-full object-cover rounded-t-lg mb-4" 
             />
             <div className='px-6 py-2 pb-6'>
               <p className="text-sm text-[#6e7073] font-semibold mb-2">{resource.description}</p>

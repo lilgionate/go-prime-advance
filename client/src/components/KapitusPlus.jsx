@@ -1,5 +1,5 @@
 import React from 'react';
-import KapitusPlusImage from '../assets/KapitusPlus-1.webp'; // Replace with the correct image path
+import KapitusPlusImage from '../assets/goprimeplus.png'; // Replace with the correct image path
 import './KapitusPlus.css';
 
 const KapitusPlus = () => {
@@ -7,7 +7,7 @@ const KapitusPlus = () => {
     <section className="py-10 bg-[#F5F8FA] kapitus-plus-section">
       <div className="lg:max-w-6xl sm:max-w-xl mx-auto grid sm:grid-cols-1 lg:grid-cols-2 gap-10 items-center kapitus-plus-container">
         {/* Left side - Image */}
-        <div className="bg-[#1b1b1b] p-6 rounded-lg flex justify-center kapitus-plus-image-container">
+        <div className="bg-[#1b1b1b] rounded-lg flex justify-center kapitus-plus-image-container">
           <img src={KapitusPlusImage} alt="KapitusPLUS" className="w-full h-auto object-contain kapitus-plus-image" />
         </div>
 
