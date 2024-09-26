@@ -68,8 +68,8 @@ const Footer = () => {
       {/* Social Icons and Copyright */}
       <div className="mt-12 flex justify-between items-center text-sm social-icons">
         <div className="footer-copyright">
-          <p>© 2024 Strategic Funding Source, Inc. All rights reserved.</p>
-          <p>GoPrimeAdvance and the GoPrimeAdvance logo are registered trademarks of Strategic Funding Source, Inc.</p>
+          <p>© 2024 Go Prime Advance, Inc. All rights reserved.</p>
+          <p>GoPrimeAdvance and the GoPrimeAdvance logo are registered trademarks of Go Prime Advance, Inc.</p>
           <p>Loans made or brokered in New York are made or brokered pursuant to New York Finance Lenders License No. 603-G609.</p>
         </div>
         <div className="flex space-x-4 text-xl mr-10">

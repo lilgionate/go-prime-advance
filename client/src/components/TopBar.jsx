@@ -22,7 +22,7 @@ const TopBar = () => {
           </a>
         </div>
         <div className="flex items-center space-x-4 text-xs sm:block hidden">
-          <span>Call now: (800) 780-7133</span>
+          <span>Call now: (347) 309-9598</span>
           <a href="#login" className="border border-[#14171A] py-1 px-3 rounded-md">Login</a>
         </div>
       </div>
