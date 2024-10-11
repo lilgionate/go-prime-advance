@@ -1,36 +1,20 @@
+// App.js
 import React from 'react';
-import TopBar from './components/TopBar';
-import Header from './components/Header';
-import HeroSection from './components/HeroSection';
-import Services from './components/Services';
-import Statistics from './components/Statistics';
-import KapitusPlus from './components/KapitusPlus';
-import ApplicationProcess from './components/ApplicationProcess';
-import BusinessCredit from './components/BusinessCredit';
-import KnowledgeHub from './components/KnowledgeHub'; 
-import Testimonials from './components/Testimonials';
-import Assistance from './components/Assistance';
-import Footer from './components/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './routes/HomePage';
+import ApplyNow from './routes/ApplyNow';
 import './App.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-
 function App() {
   return (
-    <div className="App">
-      <TopBar />
-      <Header />
-      <HeroSection />
-      <Services />
-      <Statistics />
-      <KapitusPlus />
-      <ApplicationProcess />
-      <BusinessCredit />
-      <KnowledgeHub />
-      <Testimonials />
-      <Assistance />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/apply-now" element={<ApplyNow />} />
+        {/* add more routes here */}
+      </Routes>
+    </Router>
   );
 }
 
